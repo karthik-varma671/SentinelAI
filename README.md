@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```
 ###############################################################################################
 ##                                                                                           ##
@@ -535,3 +536,6 @@ This project is open source and available under the [MIT License](LICENSE).
 **SentinelAI** — Autonomous Endpoint Defence Platform
 
 Made by [Karthik Varma](https://github.com/karthik-varma671)
+=======
+
+>>>>>>> 18b09096ea754be82d90141b037fe514a49fef4a
