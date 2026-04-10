@@ -332,7 +332,6 @@ The server exposes a REST API on port 8000. All authenticated endpoints require 
 | `POST` | `/unlock/{bot_id}`              | send unlock command            | Analyst  |
 | `GET`  | `/bots`                         | list active bot IDs            | Viewer   |
 | `GET`  | `/computers`                    | list all registered computers  | Viewer   |
-| `PUT`  | `/computers/{bot_id}/ou`        | assign computer to OU          | Analyst  |
 | `PUT`  | `/bots/{bot_id}/displayname`    | set display name               | Analyst  |
 | `PUT`  | `/bots/{bot_id}/department`     | set department                 | Analyst  |
 
@@ -347,7 +346,7 @@ The server exposes a REST API on port 8000. All authenticated endpoints require 
 | `GET`    | `/policies/{id}/versions`                 | get version history     | Analyst  |
 | `POST`   | `/policies/{id}/rollback/{version_id}`    | rollback to version     | Admin    |
 
-### Users, Groups & OUs
+### Users, Groups
 
 | Method   | Endpoint                          | Description                  | Min Role |
 |----------|-----------------------------------|------------------------------|----------|
@@ -361,10 +360,6 @@ The server exposes a REST API on port 8000. All authenticated endpoints require 
 | `DELETE` | `/groups/{id}`                    | delete a group               | Admin    |
 | `POST`   | `/users/{uid}/groups/{gid}`       | add user to group            | Admin    |
 | `DELETE` | `/users/{uid}/groups/{gid}`       | remove user from group       | Admin    |
-| `GET`    | `/organizational-units`           | list all OUs                 | Viewer   |
-| `POST`   | `/organizational-units`           | create an OU                 | Admin    |
-| `PUT`    | `/organizational-units/{id}`      | update an OU                 | Admin    |
-| `DELETE` | `/organizational-units/{id}`      | delete an OU                 | Admin    |
 
 ### Monitoring & Data
 
