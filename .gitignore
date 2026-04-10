@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+*.log
+*.pid
+*.sqlite3
+*.db
+
+# Bot identity files
+bot_id.txt
+bot_user.txt
+locked_state.json
+
+# Forensic snapshots
+forensics_*.json
+
+# Server forensics folder
+forensics/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
