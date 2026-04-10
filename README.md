@@ -506,36 +506,8 @@ Check that the policy is enabled, the target matches the bot (user, group, OU, m
 **Emergency hotkey not working:**
 Install the keyboard library: `pip install keyboard`. It requires admin privileges.
 
-## Contributing
-
-Contributions are welcome. Areas where help is needed:
-
-- Linux and macOS bot agent support
-- real-time dashboard updates via WebSocket (replace polling)
-- threat intelligence feed integration
-- email/SMS alerting
-- machine learning-based anomaly detection
-- Docker deployment support
-- automated testing suite
-- plugin/extension system for custom rules
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 **SentinelAI** — Autonomous Endpoint Defence Platform
 
 Made by [Karthik Varma](https://github.com/karthik-varma671)
-=======
-
->>>>>>> 18b09096ea754be82d90141b037fe514a49fef4a
